@@ -54,17 +54,17 @@ you can use those urls:
 ## Explanation
 this web will calculate FUNC_NAME on the pixels of given IMAGE_FILE_NAME and return the result.
  Supported FUNC_NAMES are:
-1- min :                                                                                                                                                                        
+1- min :                                                                                                                                                                                                                                                                                                                                        
 returns Min value of pixles in the imaget
 This relies on the histogram() method, and simply returns the low and high bins used.
-2- max:                                                                                                                                                                 
+2- max:                                                                                                                                                                                                                                                                                                                                        
 returns Max value of pixles in the imaget
 This relies on the histogram() method, and simply returns the low and high bins used.
-3- mean:                                                                                                   
+3- mean:                                                                                                                                                                                                                                                               
 returns Average (arithmetic mean) pixel level in the image.
-4- median:                                                                                                                                                                       
+4- median:                                                                                                                                                                                                                                                                                                                                 
 returns Median pixel level in the image.
-5-  pXXX where XXX is a percentile between 0...100 :                                                                                                     
+5-  pXXX where XXX is a percentile between 0...100 :                                                                                                                                                                                                                     
 For example p10 is the 10th percentile of the image, p99 is the 99th percentile
 returns a value that a certain percentage of a set of values (p%) is lower than it.
 
